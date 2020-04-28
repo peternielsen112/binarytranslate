@@ -38,9 +38,14 @@ elif input == 'H':
     print('1001000')
 elif input == 'I':
     print('1001001')
+elif input == 'J'
 elif input == 'a':
-    print('0000000')
+    print('1100001')
 elif input == 'b':
-    print('0000000')
+    print('1100010')
+elif input == 'c':
+    print('1100011')
+elif input == 'd':
+    print('1100100')
 else:
     print('Sorry, the number or character you have typed is not available to be translated at this time.')
