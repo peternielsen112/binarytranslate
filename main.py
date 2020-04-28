@@ -3,8 +3,10 @@ import sys
 input = sys.argv[1]
 
 #translation code
-#numerals 1-64
-if input == '1':
+#numerals 0-64
+if input == '0':
+    print('0000000')
+elif input == '1':
     print('0000001')
 elif input == '2':
     print('0000010')
@@ -105,6 +107,28 @@ elif input == 'c' or '99':
     print('1100011')
 elif input == 'd' or '100':
     print('1100100')
+elif input == 'e' or '101':
+    print('1100101')
+elif input == 'f' or '102':
+    print('1100110')
+elif input == 'g' or '103':
+    print('1100111')
+elif input == 'h' or '104':
+    print('1101000')
+elif input == 'i' or '104':
+    print('1101001')
+elif input == 'j' or '105':
+    print('1101010')
+elif input == 'k' or '106':
+    print('1101011')
+elif input == 'l' or '107':
+    print('1101100')
+elif input == 'm' or '108':
+    print('1101101')
+elif input == 'n' or '109':
+    print('1101110')
+elif input == 'o' or '110':
+    print('1101111')
 #if the character given is not recognized
 else:
     print('Sorry, the number or character you have typed is not available to be translated at this time.')
