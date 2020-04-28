@@ -32,6 +32,32 @@ elif input == '12':
     print('0001100')
 elif input == '13':
     print('0001101')
+elif input == '14':
+    print('0001110')
+elif input == '15':
+    print('0001111')
+elif input == '16':
+    print('0010000')
+elif input == '17':
+    print('0010001')
+elif input == '18':
+    print('0010010')
+elif input == '19':
+    print('0010011')
+elif input == '20':
+    print('0010100')
+elif input == '21':
+    print('0010101')
+elif input == '22':
+    print('0010110')
+elif input == '23':
+    print('0010111')
+elif input == '24':
+    print('0011000')
+elif input == '25':
+    print('0011001')
+elif input == '26':
+    print('0011010')
 #capital letters and numbers 65 - 90
 elif input == 'A' or '65':
     print('1000001')
@@ -115,20 +141,42 @@ elif input == 'g' or '103':
     print('1100111')
 elif input == 'h' or '104':
     print('1101000')
-elif input == 'i' or '104':
+elif input == 'i' or '105':
     print('1101001')
-elif input == 'j' or '105':
+elif input == 'j' or '106':
     print('1101010')
-elif input == 'k' or '106':
+elif input == 'k' or '107':
     print('1101011')
-elif input == 'l' or '107':
+elif input == 'l' or '108':
     print('1101100')
-elif input == 'm' or '108':
+elif input == 'm' or '109':
     print('1101101')
-elif input == 'n' or '109':
+elif input == 'n' or '110':
     print('1101110')
-elif input == 'o' or '110':
+elif input == 'o' or '111':
     print('1101111')
+elif input == 'p' or '112':
+    print('1110000')
+elif input == 'q' or '113':
+    print('1110001')
+elif input == 'r' or '114':
+    print('1110010')
+elif input == 's' or '115':
+    print('1110011')
+elif input == 't' or '116':
+    print('1110100')
+elif input == 'u' or '117':
+    print('1110101')
+elif input == 'v' or '118':
+    print('1110110')
+elif input == 'w' or '119':
+    print('1110111')
+elif input == 'x' or '120':
+    print('1111000')
+elif input == 'y' or '121':
+    print('1111001')
+elif input == 'z' or '122':
+    print('1111010')
 #if the character given is not recognized
 else:
     print('Sorry, the number or character you have typed is not available to be translated at this time.')
