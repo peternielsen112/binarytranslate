@@ -58,6 +58,12 @@ elif input == '25':
     print('0011001')
 elif input == '26':
     print('0011010')
+elif input == '27':
+    print('0011011')
+elif input == '28':
+    print('0011100')
+elif input == '29':
+    print('0011101')
 #capital letters and numbers 65 - 90
 elif input == 'A' or '65':
     print('1000001')
