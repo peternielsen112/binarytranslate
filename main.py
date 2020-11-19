@@ -1,4 +1,4 @@
-user_input = input('Enter the number to translate... ')
+user_input = int(input('Enter the number to translate (integers only, up to 2047)... '))
 d10 = 0	
 d9 = 0	
 d8 = 0	
@@ -79,4 +79,4 @@ else:
   pass	
 
 
-print(d10, d9, d8, d7, d6, d5, d4, d3, d2, d1, d0)
+print(f'{d10}{d9}{d8}{d7}{d6}{d5}{d4}{d3}{d2}{d1}{d0}')
