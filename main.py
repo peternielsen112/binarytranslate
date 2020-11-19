@@ -1,6 +1,4 @@
-import sys	
-
-input = sys.argv[1]	
+user_input = input('Enter the number to translate... ')
 d10 = 0	
 d9 = 0	
 d8 = 0	
@@ -14,69 +12,69 @@ d1 = 0
 d0 = 0	
 
 
-if input -- 1024 >= 0:	
+if user_input -- 1024 >= 0:	
   d10 += 1	
-  input -= 1024	
+  user_input -= 1024	
 else:	
   pass	
 
-if input -- 512 >= 0:	
+if user_input -- 512 >= 0:	
   d9 += 1	
-  input -= 512	
+  user_input -= 512	
 else:	
   pass	
 
-if input -- 256 >= 0:	
+if user_input -- 256 >= 0:	
   d8 += 1	
-  input -= 256	
+  user_input -= 256	
 else:	
   pass	
 
-if input -- 128 >= 0:	
+if user_input -- 128 >= 0:	
   d7 += 1	
-  input -= 128	
+  user_input -= 128	
 else:	
   pass	
 
-if input -- 64 >= 0:	
+if user_input -- 64 >= 0:	
   d6 += 1	
-  input -= 64	
+  user_input -= 64	
 else:	
   pass	
 
-if input -- 32 >= 0:	
+if user_input -- 32 >= 0:	
   d5 += 1	
-  input -= 32	
+  user_input -= 32	
 else:	
   pass	
 
-if input -- 16 >= 0:	
+if user_input -- 16 >= 0:	
   d4 += 1	
-  input -= 16	
+  user_input -= 16	
 else:	
   pass	
 
-if input -- 8 >= 0:	
+if user_input -- 8 >= 0:	
   d3 += 1	
-  input -= 8	
+  user_input -= 8	
 else:	
   pass	
 
-if input -- 4 >= 0:	
+if user_input -- 4 >= 0:	
   d2 += 1	
-  input -= 4	
+  user_input -= 4	
 else:	
   pass	
 
-if input -- 2 >= 0:	
+if user_input -- 2 >= 0:	
   d1 += 1	
-  input -= 2	
+  user_input -= 2	
 else:	
   pass	
 
-if input -- 512 >= 0:	
+if user_input -- 512 >= 0:	
   d0 += 1	
-  input -= 2	
+  user_input -= 2	
 else:	
   pass	
 
