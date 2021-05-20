@@ -2,7 +2,7 @@
 [![Github All Releases](https://img.shields.io/github/downloads/peternielsen112/binarytranslate/total.svg)](https://github.com/peternielsen112/binarytranslate/releases)
 [![GitHub release](https://img.shields.io/github/release/peternielsen112/binarytranslate/all.svg)](https://github.com/peternielsen112/binarytranslate/releases)
 [![GitHub Release Date](https://img.shields.io/github/release-date-pre/peternielsen112/binarytranslate.svg)](https://github.com/peternielsen112/binarytranslate/releases)
-[![GitHub license](https://img.shields.io/github/license/peternielsen112/binarytranslate)](https://github.com/peternielsen112/binarytranslate/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/badge/License-GNU%20GPL%203.0-blue)](https://github.com/peternielsen112/binarytranslate/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/peternielsen112/binarytranslate.svg)](https://github.com/peternielsen112/binarytranslate/stargazers)
 
 ---
