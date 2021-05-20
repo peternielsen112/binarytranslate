@@ -1,51 +1,75 @@
-# binarytranslate
+# Binary Translator
+[![Github All Releases](https://img.shields.io/github/downloads/peternielsen112/binarytranslate/total.svg)](https://github.com/peternielsen112/binarytranslate/releases)
+[![GitHub release](https://img.shields.io/github/release/peternielsen112/binarytranslate/all.svg)](https://github.com/peternielsen112/binarytranslate/releases)
+[![GitHub Release Date](https://img.shields.io/github/release-date-pre/peternielsen112/binarytranslate.svg)](https://github.com/peternielsen112/binarytranslate/releases)
+[![GitHub license](https://img.shields.io/github/license/peternielsen112/binarytranslate)](https://github.com/peternielsen112/binarytranslate/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/peternielsen112/binarytranslate.svg)](https://github.com/peternielsen112/binarytranslate/stargazers)
 
-A simple Python repository that translates simple characters into binary. Program copyright (C) Peter Nielsen 2020.
-I'm on GitHub: @peternielsen112 and also Repl.it by the same username.
-Please email any problems or suggestions to me at <dirigo112@gmail.com>.
-
-
-
+---
 ### Contents
+
+- [Requirements](#requirements)
+
+- [About](#about)
 
 - [Instructions](#instructions)
 
-    - [Terminal](#terminal)
+    - [Git Bash](#git-bash)
+
+    - [Terminal.app](#terminal.app)
     
-    - [Explorer and other GUIs](#windows-explorer-and-other-guis)
+    - [File-Browsing GUIs](#file-browsing-guis)
 
 - [How it Works](#how-it-works)
 
+- [About the Creator](#about-the-creator)
+
+---
+### Requirements
+
+* Python 3.7 or above
+* No modules are required.
+
+---
+### About
+[Binary Translator](https://github.com/peternielsen112/binarytranslate) ia a simple Python repository that translates numbers into binary. This program is copyright (C) 2021 Peter Nielsen. See LICENSE.md for more details.
 
 
+---
 ### Instructions
 
-##### Terminal:
+##### Git Bash:
 
+1. Navigate to the folder in Git Bash. `cd C:/example/path/to/binarytranslate`.
 
-**Note: this is for Windows.**
+2. Run the main file using the command: `python main.py`. **Python must be installed on your system** for this operation to complete.
 
-1. Navigate to the folder in Git Bash. `$ cd C:/example/path/binarytranslate`.
-
-2. Run the main file by using the command: `$ python main.py`.
-
-3. When prompted, enter a digit up to the specified number (currently, this is `2047`).
-
-4. Watch your digit be printed out in binary!
-
-
-##### Windows Explorer and other GUIs:
-
-1. Navigate to the folder in Windows Explorer or Finder (MacOS).
-
-2. Double-click on the file and it will open a Python shell. ***PYTHON MUST BE INSTALLED.***
-
-3. You'll be prompted for a number up to `2047`. Enter one.
+3. When prompted, enter an integer up to `65535`.
 
 4. Output in binary is given.
 
+##### Terminal.app:
 
+1. Navigate to the folder in Terminal: `cd ~/example/path/to/binarytranslate`
+2. Run the main file using this command: `python3 main.py`. **Python must be installed on your system** for this operation to complete.
+3. When prompted, enter an integer up to `65535`.
+4. Output in binary is given.
+
+##### File Browsing GUIs:
+
+1. Navigate to the folder in Windows Explorer or Finder (MacOS).
+
+2. Double-click on the file and it will open a Python shell. **Python must be installed on your system** for this operation to complete.
+
+3. When prompted, enter an integer up to `65535`.
+
+4. Output in binary is given.
+
+---
 ### How it Works:
+The program takes input from the user using Python's out-of-the-box [input()](https://docs.python.org/3/library/functions.html#input) function. This input is saved as a variable, `user_input`. Then, for every binary place in a large range, that amount is subtracted if the number is great enough to meet a binary value. During each calculation, the program determines whether to set that place's digit to `1` or `0`. The digits are combined and then printed to the console using an [f string](https://docs.python.org/3/tutorial/inputoutput.html). If an option that is higher than `65535` is given, it returns an error message; another error will be returned if the input is not an integer (using a [try/except statement](https://docs.python.org/3/tutorial/errors.html#handling-exceptions)).
 
-
-The program takes input from the user using Python's out-of-the-box `input()` function. This input is saved as a variable, `user_input`. Then, for every binary place from 1024 to 1, that amount is subtracted if the number is that big. During each calculation, the program determines whether to set that place's digit to `1` or `0`. The digits are combined and then printed to the console.
+---
+### About the Creator
+I create programs in a variety of languages, from Python to JavaScript to CSS and more. I'm on GitHub: [@peternielsen112](https://github.com/peternielsen112) and also [Replit.com](https://replit.com/@peternielsen112) by the same username.
+Please email any problems or suggestions to me at <dirigo112@gmail.com>.
